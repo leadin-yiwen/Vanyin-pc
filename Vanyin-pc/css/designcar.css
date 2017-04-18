@@ -1,0 +1,184 @@
+.design .designmenu {
+	width: 100%;
+	height: 75px;
+	background: url(../img/design/designmenubg.png) repeat-x center top;
+	position: relative;
+	z-index: 99;
+}
+
+.design .designmap {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.design .designmap li{float: left;line-height: 70px;font-size: 12px;color: #757575;margin-right: 7px;}
+.design .designmap li.mapname{font-size: 18px;color: #17b4bb;line-height: 65px;}
+
+.design .designmap li a{color: #757575;}
+.design .designmap li a:hover{color: #17B4BB;}
+
+
+.design .detail{width: 1100px;display: table;margin: 0 auto;}
+
+.design .detail>p{font-size: 12px;color: #767676;line-height: 50px;margin-top: 15px;}
+
+.detailbox{width: 100%; display: table;}
+.detailbox .img{float: left; width: 425px; height: 100%;overflow: hidden;}
+.detailbox .img img{display: block;width: 100%;}
+
+
+
+.detailbox .content{width: 635px;height: 100%;float: right;}
+.detailbox .content ul.cartop{float: left; width: 285px;height: 110px;border: solid 2px #e93052;border-radius:10px;background: url(../img/designcar/designcarico1.png) no-repeat right bottom;}
+
+
+.detailbox .content .cartop li{float: left; }
+
+
+
+.detailbox .content .cartop li:nth-child(1) p{font-size: 16px;color: #e93052;line-height: 30px;padding-left: 20px; margin-top: 18px;}
+.detailbox .content .cartop li:nth-child(2){float: right;}
+.detailbox .content .cartop li:nth-child(2) p{font-size: 16px;color: #17b4bb;line-height: 30px;padding-right: 20px; margin-top: 18px;}
+.detailbox .content .cartop li:nth-child(2) p span{color: #000000;font-size: 12px;padding-left: 2px;}
+.detailbox .content .cartop li:nth-child(3){float: left;width: 100%;}
+.detailbox .content .cartop li:nth-child(3) p{font-size: 18px;color: #e93052;padding: 0 20px;line-height: 30px;margin-top: 8px;}
+.detailbox .content .carremark{float: right;width: 320px;height: 110px;}
+.detailbox .content .carremark p{font-size: 12px;color: #a8a8a8;line-height: 22px;text-align: justify;margin-top: 3px;}
+.detailbox .content .carremark p:nth-child(1){margin-top: 5px;}
+.detailbox .content .carremark p a{color: #e93052;}
+
+
+.detailbox .content .require{display: table;width: 454px; clear: both;}
+
+.detailbox .content .require li{float: left; width: 100%;}
+.detailbox .content .require li:nth-child(1){margin-top: 20px;}
+.detailbox .content .require li span{display: block;line-height: 30px;}
+
+.detailbox .content .require li span:nth-child(1){float: left;font-size: 14px;color: #000000;padding-left: 5px;}
+.detailbox .content .require li span:nth-child(2){float: right;font-size: 12px;color: #767676;margin-right: 5px;}
+.detailbox .content .require li:nth-child(2){margin-top: 5px;}
+
+.txtrequire{width: 424px;height: 80px;border-radius: 8px;border: solid 1px #e6e6e6; background-color: #fafafa;padding:10px 15px;font-size: 12px; line-height: 20px;color: #767676;font-family: "microsoft yahei";letter-spacing: 1px;}
+
+
+.isprint{width: 100%; height: 30px;clear: both;margin-top: 20px;}
+
+.isprint li{float: left;height: 100%;}
+
+.isprint li:nth-child(1) p{font-size: 14px;color: #000000;line-height: 30px;}
+
+
+.isprint li:nth-child(2){margin-left: 8px;}
+.isprint li:nth-child(2) img{display: block;height: 18px; margin-top: 7px;}
+
+.carcontact{width: 100%;display: table;clear: both; margin-top: 10px;}
+
+.carcontact>p:nth-child(1){font-size: 14px;color: #000;line-height: 30px;}
+
+.carcontact>p:nth-child(2){font-size: 12px;color: #767676;line-height: 22px;}
+
+.carcontact .carinput{width: 100%; display: table;margin-top: 10px;}
+
+.carcontact .carinput li{float: left;}
+.carcontact .carinput li label{font-size: 12px; color: #000;line-height: 25px;}
+.carcontact .carinput li label span{color: #e93052;padding-right: 3px;}
+
+.carcontact .carinput li input[type=text]{height: 23px;border: solid 1px #e5e5e5;margin-left: 10px;padding: 0 10px;font-size: 12px;line-height: 14px;}
+
+
+.carcontact .carinput li:nth-child(1) input[type=text]{width: 100px;}
+
+.carcontact .carinput li:nth-child(2) input[type=text]{width: 140px;}
+
+
+.carcontact .carinput li:nth-child(2){margin-left: 30px;}
+
+
+.protocol{width: 1000%;height: 30px; background: url(../img/designcar/carSelectOk.png) no-repeat left center;margin-top: 15px;}
+
+.protocol>p{font-size: 14px;color: #767676;line-height: 30px;padding-left: 25px;}
+.protocol>p a{color: #17b4bb;padding-left: 5px;}
+
+
+.btnbox{display: table;width: 100%; margin-top: 20px;}
+
+.carBtnOk{width: 155px; height: 45px;border: solid 1px #0a9399; background-color: #17b4bb;font-size: 16px; color: #ffffff;}
+
+
+
+
+.othertemplate{width: 1100px;display: table;margin: 0 auto;margin-top: 80px;}
+.othertemplate >p{width:100px;padding-bottom: 10px; border-bottom: solid 2px #E93052;font-size: 14px; color: #000000;position: relative;z-index: 99;}
+
+.otlistbox{width: 100%;display: table; }
+
+
+
+.designlist {
+	display: table;
+	width: 100%px;
+
+	border-top: solid 1px #d1d1d1;margin-top: -2px;
+	padding-top: 30px;
+}
+
+.designlist ul {
+	float: left;
+	width: 260px;
+	height: 300px;
+	border: solid 1px #f5f4f4;
+	border-radius: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-shadow: 0px -2px 5px #f5f4f4, -2px 0px 5px #f5f4f4, 2px 0px 5px #f5f4f4, 0px 2px 5px #f5f4f4;
+	-webkit-box-shadow: box-shadow: 0px -2px 5px #f5f4f4, -2px 0px 5px #f5f4f4, 2px 0px 5px #f5f4f4, 0px 2px 5px #f5f4f4;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.designlist ul:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+.designlist ul li.img {
+	width: 240px;
+	height: 240px;
+	overflow: hidden;
+	margin: 10px 10px 0 10px;
+}
+
+.designlist ul li.img img {
+	width: 100%;
+}
+
+.designlist ul li.text {
+	width: 240px;
+	height: 50px;
+	margin: 0 10px;
+}
+
+.designlist ul li.text span {
+	display: block;
+	width: 170px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	font-size: 14px;
+	color: #000000;
+	overflow: hidden;
+}
+
+.designlist ul li.text a {
+	display: block;
+	float: left;
+	width: 55px;
+	height: 25px;
+	margin-left: 15px;
+	margin-top: 12px;
+	background-color: #e93052;
+	border-radius: 5px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+}

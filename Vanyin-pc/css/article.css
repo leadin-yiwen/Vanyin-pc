@@ -1,0 +1,98 @@
+.articlebox{width: 1100px;display: table;margin: 10px auto 0 auto;}
+.articlebox .articleleft{width: 310px;float: left;}
+
+
+
+.articleattr{width: 100%; display: table; border: solid 1px #e5e5e5;}
+.articleattr li.title{width: 100%;height: 60px;border-bottom: solid 1px #E5E5E5;}
+
+.articleattr.articlerec li.title{background: url(../img/article/articleico.png) no-repeat 20px center;}
+
+
+.articleattr li.title p{display: block;float: left; width: auto; height: 100%;margin-left: 45px;line-height: 58px;font-size: 18px;}
+.articleattr.articlerec li.title p{color: #17b4bb;}
+
+.articleattr li.title a{display: block;float: right;margin-right: 20px;width:17px; height: 17px;margin-top: 21px;}
+.articleattr li.title a img{width: 100%;display: block;}
+
+.articleattr.articlerec li.list{width: 290px;margin-left:10px;display: table;}
+.articleattr.articlerec li.list a{display: block;width: 100%;display: table;border-bottom: dashed 1px #E5E5E5;padding: 10px 0;}
+.articleattr.articlerec li.list a p{width: 270px; font-size: 14px;color: #999999;line-height:20px;margin-left: 10px;text-align: justify;}
+.articleattr.articlerec li.list a p.title{background: url(../img/article/articleleftlistico_1.png) no-repeat left 7px;text-indent: 12px;}
+.articleattr.articlerec li.list a p.date{color: #cfcfcf;padding-top: 3px;}
+.articleattr.articlerec li.list a:hover p.title{color: #17b4bb;background: url(../img/article/articleleftlistico_2.png) no-repeat left 7px;}
+.articleattr.articlerec li.list a:last-child{border: none;} 
+
+.articleattr.articlehot {margin-top: 10px;padding-bottom: 50px;}
+.articleattr.articlehot li.title{background: url(../img/article/recico.png) no-repeat 20px center;}
+.articleattr.articlehot li.title p{color: #e93052;}
+
+
+
+.articleattr.articlehot li.list{width:100%;display: table;}
+
+.articleattr.articlehot li.list a{display: block; width: 70px;height: 27px;border: solid 1px #999999;float: left;margin-left:23px;margin-top: 20px;text-align: center;color: #999999;line-height: 27px;text-align: center;border-radius: 5px;}
+
+.articleattr.articlehot li.list a:hover{color: #e93052;border-color: #e93052;}
+
+
+.articleright{width: 770px;display: table;float: right;}
+
+.articlerighttop{width: 100%; height: 290px;}
+
+.articlemenu{width: 100%;height: 50px;margin-top: 20px;}
+
+.articlemenu li{width: 152px; height: 100%;float: left;margin-left: 2px;background-color: #e5e5e5;}
+.articlemenu li:first-child{margin-left: 0;}
+.articlemenu li p{text-align: center;line-height: 50px;font-size: 16px;color: #969696;}
+.articlemenu li:hover{background-color: #17b4bb;}
+.articlemenu li:hover p{color: #FFFFFF;}
+
+.articlemenu li.active{background-color: #17b4bb;}
+.articlemenu li.active p{color: #FFFFFF;}
+
+.articlelistbox{width: 766px;display: table;border: solid 1px #E5E5E5;}
+.articlelistbox ul{width: 726px; height: 190px;margin-left: 20px;border-bottom: dashed 1px #E5E5E5; margin-top: 20px;}
+
+.articlelistbox ul li.img{width: 270px; height: 170px;float: left;}
+.articlelistbox ul li.img a{display: block;width: 100%; height: 100%;}
+.articlelistbox ul li.detail{width: 440px;height: 170px;float: right;}
+
+.articlelistbox ul li.detail a.title{display: block;height: 60px;font-size: 18px;line-height: 30px;color: #333333;overflow: hidden;}
+
+.articlelistbox ul li.detail p.remark{font-size: 12px; height: 60px; overflow: hidden; line-height: 20px;color: #999999;text-align: justify;margin-top: 10px;}
+
+.articlelistbox ul li.detail p.timenum{display: block;height: 20px;width: 100%;margin-top: 20px;}
+
+.articlelistbox ul li.detail p.timenum span{display: block;float: left;color: #999999;height: 20px;line-height: 20px;}
+.articlelistbox ul li.detail p.timenum span.date{background: url(../img/article/dateico.png) no-repeat left center;padding-left: 17px;}
+.articlelistbox ul li.detail p.timenum span.looknum{background: url(../img/article/looknumico.png) no-repeat left center;padding-left: 22px;margin-left: 50px;}
+
+.pagebox{width: 100%; height: 30px;margin: 30px 0 50px 0;background-color: #00AB9F;}
+
+
+
+
+/**************印刷知识详情******************/
+.detailtitle{text-align: center;line-height: 35px;color: #333333;font-size: 24px;margin-top: 5px;}
+.detaildatelook{text-align: center;line-height: 30px;margin-top: 10px;}
+.detaildatelook span{display: inline-block;font-size: 14px;color: #999999;}
+.detaildatelook span.date{background: url(../img/article/dateico.png) no-repeat left center;padding-left: 17px;}
+.detaildatelook span.looknum{background: url(../img/article/looknumico.png) no-repeat left center;padding-left: 22px;margin-left: 20px;}
+
+.detailbox{width: 100%;float: left;min-height: 400px; margin-top: 20px;font-size: 14px;color: #828282;line-height: 26px;text-indent: 2em;text-align: justify;}
+.detailbox p{padding-bottom: 14px;}
+
+
+.detailrec{width: 100%;float: left; margin-top: 20px;overflow-x: hidden;}
+.detailrec > p{line-height: 30px;background: url(../img/article/articlerecico.png) no-repeat left 7px;padding-left: 25px;font-size: 18px;color: #333333;}
+
+
+.detailrec .detailrecbox{width: 780px;margin-left: -10px;display: table;}
+.detailrec .detailrecbox li{width: 250px;float: left;height: 150px;overflow: hidden;margin-left: 10px;position: relative;margin-top: 10px;}
+
+
+.detailrec .detailrecbox li a{display: block;width: 100%; height: 100%;}
+.detailrec .detailrecbox li a img{display: block; width: 100%;}
+.detailrec .detailrecbox li a p{display: inline-block;line-height: 20px;color: #ffffff;font-size: 12px; background: rgba(0,0,0,0.7);position: absolute;left: 0;bottom: 0;padding: 10px;opacity: 0; transition: opacity 0.5s;text-align: justify;}
+.detailrec .detailrecbox li:hover a p{opacity: 1; transition: opacity 0.5s;}

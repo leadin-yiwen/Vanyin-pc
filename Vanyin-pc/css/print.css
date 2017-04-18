@@ -1,0 +1,101 @@
+
+
+.printselect{width: 100%; display: table; border-bottom: solid 1px #e7e7e7;background-color: #f6f6f6;}
+
+.printselect .printselectbody{width: 1100px;display:table; margin: 50px auto 0 auto;background-color: #FFFFFF;}
+
+.printselect .printselectimg{float: left;width: 560px;height: 560px;overflow: hidden;}
+.printselect .printselectimg img{width:100%;}
+
+
+.printcasebox{float: right;width: 500px;display: table;}
+
+.printselect .printcasebox .printtitle{font-size: 24px;line-height: 30px;color: #000;margin-top: 20px;margin-bottom: 25px;}
+
+.printselect .printcasebox > ul{width: 460px; display: table;margin-top:2px;}
+.printselect .printcasebox > ul > li{float: left;}
+.printselect .printcasebox > ul > li.text{width: 80px;height: 30px;}
+.printselect .printcasebox > ul > li.text p{line-height: 30px;font-size: 14px;color: #333333;}
+.printselect .printcasebox > ul > li.typelist{width: 380px;}
+.printselect .printcasebox > ul > li.typelist > span{display: block;float: left;height: 28px;border: solid 1px #e8e8e8;line-height: 28px;text-align: center;font-size: 12px;padding: 0 10px;margin-right: 10px;color: #333333;margin-bottom: 10px;cursor: pointer;}
+.printselect .printcasebox > ul > li.typelist > a.remarktext{float: left; display: block; width: 30px; height: 30px;position: relative;text-align: center;border: none;padding: 0;}
+.printselect .printcasebox > ul > li.typelist > a.remarktext img{display: inline-block;margin-top: 7px;}
+.printselect .printcasebox > ul > li.typelist > a.remarktext span{position: absolute;top: 30px;right: 0px;display:block; white-space:nowrap;height: 30px;line-height: 30px;border: solid 1px #17b4bb;background-color: #d1d1d1;padding:0 10px;z-index: 9999;display: none;opacity: 0;}
+
+
+.printselect .printcasebox > ul > li.typelist > span:hover{border-color: #e93052;color: #E93052;}
+
+.printselect .printcasebox > ul > li.typelist > span.active{border-color: #e93052;color: #E93052;}
+
+.printstyle1 .numinput {float: left;}
+
+.printstyle1 .numinput span{display: block;float: left;width: 22px;height: 28px;border: solid 1px #E8E8E8;text-align: center;line-height: 28px;font-size: 14px;cursor: default;margin-bottom:10px;}
+.printstyle1 .numinput input{display: block;float: left;border: solid 1px #E8E8E8;height: 28px;width: 40px;margin-left: -1px;margin-right: -1px;text-align: center;}
+.printstyle1 p.printunit{line-height: 30px;padding: 0 10px;display: block;float: left;height: 30px;}
+
+.printstyle1 p.printunit.unitcolor{color: #17b4bb;padding: 0;}
+.printstyle1 .typelist.cycle p{line-height: 30px;}
+.printstyle1 .typelist.cycle p span.cycledate{font-size: 14px; font-weight: 600;color: #e93052;}
+.printstyle1 .typelist.cycle p span.cycleremark{color: #17b4bb;}
+
+.printcasebox .printrequire{display: table; margin-top:10px; width: 460px;}
+
+.printcasebox .printrequire .requiretop{width: 100%;height: 40px;position: relative;z-index: 99;}
+
+.printcasebox .printrequire .requiretop span{display: inline-block;height: 100%;line-height: 40px;margin-right: 20px;color: #777777;font-size: 14px;padding: 0 3px;}
+.printcasebox .printrequire .requiretop span.active{border-bottom: solid 2px #17b4bb;color: #333;}
+
+
+.requirebox{width: 100%; height: 80px;border-top: solid 2px #f2f2f2;margin-top: 0px;}
+
+ .requirebox .requiretext{width: 100%; height: 60px;padding: 15px 0;border: none;outline: none;color: #777;font-size: 14px;line-height: 30px;font-family: "microsoft yahei";}
+
+
+
+ .requirebox .requireupload{width: 100%;height: 90px;}
+
+ .requirebox .requireupload ul{width: 100%;display: table;}
+ .requirebox .requireupload ul li{float: left;}
+
+.requirebox .requireupload ul li.btnupload{width: 180px;height: 35px;}
+.requirebox .requireupload ul li.btnupload a{display: block;width: 100%; height: 100%;text-align: center;line-height: 35px;background-color: #17b4bb;color: #FFFFFF;font-weight: 600;margin-top: 15px;}
+
+.requirebox .requireupload ul li.format{height: 35px;margin-top: 15px;line-height: 35px;font-size: 12px;color: #000000;margin-left: 15px;}
+
+.requirebox .requireupload ul li.requireremark{width: 100%; height: 20px;font-size: 12px;color: #e93052;line-height: 20px;margin-top: 10px;}
+
+.printselect ul.btnprintbox{width:100%;height: 45px;clear: both;margin-top: 15px;}
+
+.printselect ul.btnprintbox li{float: left;}
+.printselect ul.btnprintbox li.printprice{line-height: 45px;font-size: 14px;color: #121212;}
+.printselect ul.btnprintbox li.printprice span{font-size: 18px;padding: 0 3px;color: #ea3556;font-weight: 600;}
+
+.printselect ul.btnprintbox li.printokbtn{float: right; width: 153px;height: 43px;border: solid 1px #0a9399;background-color: #17b4bb;margin-right: 40px;}
+.printselect ul.btnprintbox li.printokbtn a{display: block;width :100%;text-align: center;line-height: 43px;font-size: 16px;color: #ffffff;}
+.printdetail{width: 1100px;display: table;clear: both;margin: 40px auto 0 auto;}
+.printrecommend{width: 200px;float: left;}
+.printrecommend ul{width: 100%;display: table;}
+.printrecommend ul li.title{width: 100%; height: 50px;}
+.printrecommend ul.recdesign li.title{background-color: #e93052;}
+.printrecommend ul li.title p{line-height: 50px;font-size: 15px;color: #ffffff;padding-left: 20px;}
+.printrecommend ul li.list{width: 160px;margin-left: 20px;margin-top: 15px;}
+.printrecommend ul li.list a.img{display: block;width: 100%;}
+.printrecommend ul li.list a.img img{display: block;width: 100%;}
+.printrecommend ul li.list p.price{font-size: 14px;color: #e93052;line-height: 30px;margin-top: 5px;}
+.printrecommend ul li.list a.nameinfo{display: block;width: 100%; font-size: 14px;line-height: 22px;color: #000000;text-align: justify;}
+.printrecommend ul li.list:hover a.nameinfo{color: #00B4BA;}
+.printrecommend ul.recprint{margin-top: 30px;}
+.printrecommend ul.recprint li.title{background-color: #17b4bb;}
+
+
+.printdetailright{width: 880px;float: right;}
+
+.printdetailtop {width: 100%; height: 48px;border-top:solid 1px #17b4bb;border-bottom: solid 1px #e0e0e0;}
+.printdetailtop li{float: left;width: 105px;height: 100%;border-right: solid 1px #e0e0e0;}
+.printdetailtop li p{text-align: center;line-height: 48px;font-size: 15px;color: #020202;}
+.printdetailtop li.active{background: url(../img/print/printdetailrighttopbg.png) no-repeat top center;}
+
+.printdetailtop li.active p{color: #17b4bb;}
+
+.printdetailimg{width: 100%;display: table;text-align: center;}
+.printdetailimg img{display: inline-block;width: 100%;}
