@@ -13,3 +13,64 @@
 .pmlist ul li.namedate p.date{background: url(../img/article/dateico.png) no-repeat 20px center;line-height: 26px;font-size: 12px;color: #bcbcbc;padding: 0 20px 0 38px;}
 
 .pmlist ul:hover li.namedate p.name{color: #17b4bb;}
+
+
+/*弹窗*/
+.popup {
+width:100%;
+background:rgba(0,0,0,0.6);
+display:none;
+position:fixed;
+z-index:99999999999999;
+top:0;
+left:0;
+opacity:0;
+}
+.popupbox {
+position:absolute;
+width:1022px;
+height:600px;
+border:1px;
+left:0;
+right:0;
+bottom: 0;
+top:0;
+margin:auto;
+z-index:2;
+background: #FFFFFF;
+}
+.popup .popupbox .closetotal {
+    display: block;
+    background: #FFFFFF;
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	right:-30px;
+	top: 0px;
+	z-index: 9999;
+	cursor: pointer;
+	font-family: arial;
+	color: #17b4bb;
+}
+.popup .popupbox p{
+	padding:0 20px;
+}
+.popup .popupbox p.name{
+   font-size: 18px;
+   color: #00b0b8;	
+  float: left;
+  line-height: 60px;
+}
+.popup .popupbox p.date{
+	background: url(../img/article/dateico.png) no-repeat 20px center;
+	line-height: 26px;
+	font-size: 12px;
+	color: #bcbcbc;
+	float: right;
+	line-height: 60px;
+	padding: 0 20px 0 38px;
+	}
+	

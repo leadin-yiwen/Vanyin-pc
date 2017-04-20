@@ -1,0 +1,168 @@
+.content{
+	width: 1100px;
+	margin: auto;
+}
+/*正文导航*/
+.mapbody {
+	margin-top: 20px;
+	border-bottom: 1px solid #E5E5E5;
+	height: 50px;
+}
+.mapbody span,
+.mapbody a {
+	font-size: 14px;
+	color: #828282;
+	display: block;
+	line-height: 20px;
+	margin-top: 15px;
+	float: left;
+	text-decoration: none;
+}
+.mapbody span.mapnew {
+	color: #17b4bb;
+	font-size: 14px;
+}
+.mapbody span.ico_right {
+	color:#828282 ;
+	padding: 0 3px 0 3px;
+}
+.mapbody a{
+	color: #828282;
+}
+.mapbody a:hover {
+	color: #828282;
+}
+
+.contentright{
+	width: 868px;
+	float: left;
+	
+	margin-left: 20px;
+}
+.contentright ul{
+	float: left;
+	width: 100%;
+	margin-left: 130px;
+	margin-top: 60px;
+}
+.contentright ul li{
+	float: left;
+}
+.contentright ul li p:nth-child(2){
+	text-align: right;
+	font-size: 14px;
+	color:#828282 ;
+}
+.contentright ul li.contentrightone p:nth-child(2){
+	text-align: left;
+}
+.rightbtn{
+	width: 868px;
+	margin: auto;
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+}
+.rightbtn p.validate{
+	color: #828282;
+	font-size: 18px;
+}
+.rightbtn p.nextstep{
+width: 130px;
+height: 40px;
+background: #17b4bb;
+font-size: 14px;
+line-height: 40px;
+margin: auto;
+margin-top: 20px;
+}
+.rightbtn p.nextstep a{
+	color: #FFFFFF;
+	text-align: center;
+}
+.rightbtn p.phone{
+width: 868px;
+margin: auto;
+height: 40px;
+float: left;
+margin-top: 30px;
+}
+.rightbtn p.phone span:nth-child(1){
+	padding-right: 10px;
+	font-size: 16px;
+	color: #828282;
+	line-height: 40px;
+}
+.rightbtn .txtphone{
+	width: 180px;
+	height: 38px;
+	line-height: 38px;
+	border: none;
+	outline: none;
+	border: 1px solid #b4b4b4;
+	padding: 0 10px;
+	
+}
+.rightbtn .send{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #17b4bb;
+	font-size: 14px;
+	float: right;
+	margin-right: 250px;
+	margin-left: -220px;
+}
+.rightbtn .send a{
+	color: #FFFFFF;
+}
+.rightbtn .entry{
+	width: 868px;
+margin: auto;
+height: 40px;
+float: left;
+margin-top: 20px;
+margin-left: -80px;
+}
+.rightbtn .entry span:nth-child(1){
+	font-size: 16px;
+	color: #828282;
+}
+.rightbtn .txtyanz{
+	width: 130px;
+	height: 38px;
+	border: 0px;
+	outline: none;
+	border: 1px solid #B4B4B4;
+	padding: 0 10px;
+}
+.rightbtn .next {
+	width: 868px;
+    margin: auto;
+    float: left;
+    text-align: center;
+    margin:60px 250px 0 250px;
+}
+.rightbtn .next span{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 12px;
+}
+.rightbtn .next span:nth-child(1){
+	background: #d0d0d0;
+	float: left;
+}
+.rightbtn .next span:nth-child(1) a{
+	color: #8e8e8e;
+}
+.rightbtn .next span:nth-child(2){
+	background: #17b4bb;
+	float: left;
+	margin-left: 30px;
+}
+.rightbtn .next span:nth-child(2) a{
+	color: #FFFFFF;
+}

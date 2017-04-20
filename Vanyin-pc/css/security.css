@@ -1,0 +1,48 @@
+.content{
+	width: 1100px;
+	margin: auto;
+}
+.contentright{
+	width: 868px;
+	float: left;
+	margin-left: 20px;
+}
+.contentright p.contentright{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.contentright p.less{
+	text-align: center;
+	font-size: 24px;
+	color: #17b4bb;
+	font-weight: 600;
+	margin-bottom: 60px;
+}
+.rightbox p.rightboximg{
+	float: left;
+	margin-left: 150px;
+	padding-right: 10px;
+}
+.rightbox p.rightboxa{
+	float: left;
+	font-size: 14px;
+	color: #828282;
+	line-height: 20px;
+}
+.rightbox p.rightboxa span{
+	font-size: 18px;
+	color: #333333;
+}
+.rightbox p.rightboxupdate {
+	float: right;
+	width: 70px;
+	height: 30px;
+	background:#17b4bb ;
+	line-height: 30px;
+	text-align: center;
+}
+.rightbox p.rightboxupdate a{
+	font-size: 16px;
+	color: #FFFFFF;
+}

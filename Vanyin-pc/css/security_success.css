@@ -1,0 +1,35 @@
+.content{
+	width: 1100px;
+	margin: auto;
+}
+.contentright{
+	width: 580px;
+	margin: auto;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+	padding: 0 145px;
+}
+.contentright p:nth-child(2){
+	font-size: 30px;
+	margin-top: 10px;
+	color: #333333;
+	font-weight: 600;
+}
+.contentright p:nth-child(3){
+	font-size: 14px;
+	color: #828282;
+	margin-top: 25px;
+}
+.contentright p:nth-child(4){
+	width: 115px;
+	height: 30px;
+	background: #17b4bb;
+	text-align:center;
+	line-height: 30px;
+	margin: auto;
+	margin-top: 60px;
+}
+.contentright p:nth-child(4) a{
+	color: #FFFFFF;
+}

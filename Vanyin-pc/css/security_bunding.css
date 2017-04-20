@@ -1,0 +1,61 @@
+.content{
+	width: 1100px;
+	margin: auto;
+}
+.contentright{
+	width: 858px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+/*正文导航*/
+.mapbody {
+	border-bottom: 1px solid #E5E5E5;
+    height: 30px;
+}
+.mapbody span.mapnew {
+	font-size: 16px;
+	color: #999999;
+	display: block;
+	line-height: 20px;
+	float: left;
+	text-decoration: none;
+}
+.mapbody a{
+	color: #e93052;
+}
+.mapbody a:hover {
+	color: #e93052;
+}
+.contentright ul{
+	margin-top: 50px;
+	width: 285px;
+	float: left;
+	text-align: center;
+}
+.contentright ul li:nth-child(1){
+	margin-bottom: 15px;
+}
+.contentright ul li:nth-child(2){
+	font-size: 22px;
+	height: 30px;
+	line-height: 30px;
+	color: #221815;
+}
+.contentright ul li:nth-child(3){
+	margin-top: 5px;
+	font-size: 16px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+.contentright ul li:nth-child(4){
+	width: 90px;
+	height: 30px;
+	text-align: center;
+    line-height: 30px;
+    margin: auto;
+    background: #17b4bb;
+    font-size: 14px;
+    color: #FFFFFF;
+	
+}
