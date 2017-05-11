@@ -1,8 +1,120 @@
+#footer.login {
+	margin: 0;
+}
 
-#footer.login{margin: 0;}
+.loginbox {
+	width: 100%;
+	height: 510px;
+	background-color: #17b4bb;
+}
 
-.loginbox{width: 100%; height:510px;background-color: #17b4bb;}
+.loginbody {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	background: url(../img/login/loginimg1.png) no-repeat left center;
+	position: relative;
+}
 
-.loginbody{width: 1100px; height: 100%;margin: 0 auto; background: url(../img/login/loginimg1.png) no-repeat left center;position: relative;}
-
-.logincontent{width: 340px; height: 440px; background-color: #FFFFFF;position: absolute;right: 20px;top: 35px;}
+.logincontent {
+	width: 290px;
+	height: 440px;
+	background-color: #FFFFFF;
+	position: absolute;
+	right: 20px;
+	top: 35px;
+	padding: 0 25px;
+}
+.logincontent p{
+	font-size: 16px;
+	color: #333333;
+	margin-top: 30px;
+}
+.logincontent .inputtext{
+	width: 287px;
+	height: 40px;
+	border: 1px solid #e3e3e3;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.txttel{
+	width: 210px;
+	padding:0 13px;
+	outline: none;
+	border: 0px;
+	font-size: 12px;
+	color: #d5d5d5;
+}
+.txtpwd{
+	width: 210px;
+	padding:0 13px;
+	outline: none;
+	border: 0px;
+	font-size: 12px;
+	color: #d5d5d5;
+}
+.logincontent .inputtext label{
+	display:inline-block ;
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	border-right:1px solid #e3e3e3;
+}
+.logincontent .inputtext label img{
+	margin-top: 7px;
+}
+.logincontent ul li:nth-child(3){
+	margin-top: 30px;
+}
+.ckbox{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+.logincontent ul li:nth-child(3) span{
+	font-size: 14px;
+	color: #828282;
+}
+.logincontent ul li:nth-child(3) span:nth-child(2){
+	margin-right: 10px;
+}
+.logincontent ul li:nth-child(3) span:nth-child(5){
+	float: right;
+	color: #17b4bb;
+}
+.logincontent ul li:nth-child(4){
+	width: 289px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	background: #17b4bb;
+	margin-top: 15px;
+}
+.logincontent ul li:nth-child(4) a{
+	color: #FFFFFF;
+}
+.logincontent ul li:nth-child(5){
+	margin-top: 20px;
+	font-size: 12px;
+	color: #828282;
+	height: 25px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.logincontent ul li:nth-child(5) a{
+	color: #17b4bb;
+}
+.logincontent ul li:nth-child(6){
+	font-size: 12px;
+	color: #828282;
+	margin-top: 10px;
+}
+.logincontent ul li:nth-child(7){
+	text-align: center;
+	margin-top: 18px;
+}
+.logincontent ul li:nth-child(7) span{
+	margin-right: 22px;
+	
+}
