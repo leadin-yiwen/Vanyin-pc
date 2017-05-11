@@ -1,0 +1,110 @@
+#footer.login {
+	margin: 0;
+}
+.registerbox {
+	width: 100%;
+	height: 510px;
+	background-color: #17b4bb;
+}
+.loginbody {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	background: url(../img/login/loginimg1.png) no-repeat left center;
+	position: relative;
+}
+.registercontent {
+	width: 290px;
+	height: 440px;
+	background-color: #FFFFFF;
+	position: absolute;
+	right: 20px;
+	top: 35px;
+	padding: 0 25px;
+}
+.registercontent p:nth-child(1){
+	font-size: 16px;
+	color: #333333;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.registercontent .inputtext{
+	width: 287px;
+	height: 40px;
+	border: 1px solid #e3e3e3;
+	line-height: 40px;
+    margin-bottom: 30px;
+}
+.txttel{
+	width: 210px;
+	padding:0 13px;
+	outline: none;
+	border: 0px;
+	font-size: 12px;
+	color: #d5d5d5;
+}
+.txtpwd{
+	width: 210px;
+	padding:0 13px;
+	outline: none;
+	border: 0px;
+	font-size: 12px;
+	color: #d5d5d5;
+}
+.txtpeople{
+	width: 210px;
+	padding:0 13px;
+	outline: none;
+	border: 0px;
+	font-size: 12px;
+	color: #d5d5d5;
+}
+.registercontent .inputtext label{
+	display:inline-block ;
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	border-right:1px solid #e3e3e3;
+}
+.registercontent .inputtext label img{
+	margin-top: 7px;
+}
+.inputtext p.message{
+	font-size: 12px;
+	color: #ff0000;
+	margin-left: 40px;
+	margin-top: -5px;
+}
+.ckbox{
+	width: 15px;
+	height: 15px;
+}
+.registercontent li:nth-child(4) span{
+	font-size: 14px;
+	color: #828282;
+	margin-left: 10px;
+}
+.registercontent li:nth-child(4) span a{
+	color: #17b4bb;
+}
+.registercontent li:nth-child(5){
+		width: 289px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	background: #17b4bb;
+	margin-top: 15px;
+}
+.registercontent li:nth-child(5) a{
+	color: #FFFFFF;
+}
+.registercontent li:nth-child(6){
+	margin-top: 26px;
+	font-size: 12px;
+	color: #828282;
+}
+.registercontent li:nth-child(6) a{
+	color: #17b4bb;
+}

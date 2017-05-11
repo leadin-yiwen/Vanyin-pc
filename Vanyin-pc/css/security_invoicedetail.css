@@ -1,0 +1,61 @@
+.content{
+	width: 1100px;
+	margin: auto;
+}
+.invoicebox{
+	width: 860px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.invoicebox .invoiceboxtitle{
+	border-bottom: 1px solid #dddddd;
+	width: 860px;
+	font-size: 18px;
+	color: #333333;
+	height: 35px;
+}
+.invoicebox .invoicetext{
+	width: 50%;
+	float: left;
+}
+.invoicebox .invoicetext li.title{
+	font-size: 18px;
+	color: #221815;
+	margin-top: 40px;
+}
+.invoicebox .invoicetext li{
+	font-size: 14px;
+	color: #828282;
+	margin-top: 15px;
+}
+.invoicebox .invoicetext li span{
+	padding-right: 35px;
+}
+.invoicebox .invoiceimg{
+	width: 49%;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+}
+.invoicebox .invoiceimg .bgstyle{
+	background: url(../img/security/security_invoicedetails.png)no-repeat center;
+	position: relative;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-left: 100px;
+}
+.invoicebox .invoiceimg .bgstyle p{
+	position: absolute;
+	top:85px;
+	left:50px;
+    display: block;
+}
+.invoicebox .invoiceimg p.look {
+	float: left;
+	margin-top: 230px;
+	margin-left: -130px;
+	font-size: 14px;
+	color: #333333;
+}
