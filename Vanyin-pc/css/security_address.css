@@ -10,7 +10,7 @@
 }
 
 .righttitle {
-	margin-left: 25px;
+	margin-left: 20px;
 	margin-top: 10px;
 	height: 30px;
 	border-bottom: 1px solid #dcdcdc;
@@ -41,12 +41,12 @@
 	width: 415px;
 	height: 220px;
 	margin-top: 20px;
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 .adress ul li.period {
 	float: left;
-	width: 413px;
+	width: 418px;
 	height: 218px;
 	border: 1px solid #cdcdcd;
 }
@@ -68,7 +68,7 @@
 
 .adress ul li.bgadress {
 	float: left;
-	width: 375px;
+	width: 380px;
 	padding: 20px 20px;
 	height: 180px;
 	background: url(../img/security/adress_bgimg.jpg)no-repeat;
@@ -78,37 +78,54 @@
 	font-size: 18px;
 	color: #666666;
 	width: 100%;
+	height: 20px;
+	background: url(../img/security/people.png)no-repeat;
 }
 
-.adress ul li.bgadress p:nth-child(1) span:nth-child(2) {
-	margin-left: 10px;
-	margin-right: 180px;
+.adress ul li.bgadress p:nth-child(1) span:nth-child(1) {
+padding-left: 30px;
+}
+.adress ul li.bgadress p:nth-child(1) span:nth-child(2){
+	float: right;
+	text-align: right;
+	display: inline-block;
 }
 
 .adress ul li.bgadress p:nth-child(2) {
-	border-top: 2px solid #f1f1f1;
-	border-bottom: 2px solid #f1f1f1;
+	border-top: 2px dashed #f1f1f1;
+	border-bottom: 2px dashed #f1f1f1;
 	margin-top: 20px;
 	margin-bottom: 5px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+height: 65px;
+padding-top: 25px;
 	font-size: 16px;
 	color: #666666;
+	font-family: "microsoft yahei";
+	background: url(../img/security/adress.png)no-repeat left 22px;
 }
 
-.adress ul li.bgadress p:nth-child(2) span:nth-child(1) {
-	margin-right: 10px;
+.adress ul li.bgadress p:nth-child(2) span {
+	width: 350px;
+	height: 42px;
+	float: left;
+	padding-left: 30px;
 }
 
 .adress ul li.bgadress p:nth-child(3) {
 	font-size: 14px;
 	color: #17b4bb;
+	line-height: 50px;
 }
-
+.adress ul li.bgadress p:nth-child(3) a{
+	cursor: pointer;
+}
 .default {
 	margin-right: 235px;
+	color: #17b4bb;
 }
-
+.update{
+	color: #17b4bb;
+}
 .delete {
 	color: #999999;
 	margin-left: 20px;
@@ -117,7 +134,7 @@
 
 /*弹窗*/
 
-.tanchuangbox {
+/*.tanchuangbox {
 	width: 100%;
 	background: rgba(0, 0, 0, 0.6);
 	display: none;
@@ -126,9 +143,9 @@
 	top: 0;
 	left: 0;
 	opacity: 0;
-}
+}*/
 
-.boxup {
+/*.boxup {
 	position: absolute;
 	width: 825px;
 	height: 445px;
@@ -139,8 +156,8 @@
 	margin: auto;
 	z-index: 2;
 	background: #FFFFFF;
-}
-.tanchuangbox .boxup .closetotal{
+}*/
+/*.tanchuangbox .boxup .closetotal{
 	 display: block;
 	font-size: 25px;
 	line-height: 45px;
@@ -151,7 +168,7 @@ right: 30px;
 	z-index: 9999;
 	cursor: pointer;
 	font-family: arial;
-}
+}*/
 .tanchuangbox .boxup p.boxuptitle{
 	height: 45px;
 	background: #17b4bb;
@@ -168,12 +185,13 @@ right: 30px;
 	margin-left: 5px;
 }
 
-.tanchuangbox .boxup .txtname{
+ .txtname{
 	width: 180px;
 	height: 25px;
 	outline: none;
 	padding: 0 10px;
 	margin-left: 10px;
+	border: 1px solid #dcdcdc;
 }
 .tanchuangbox .boxup p{
 	padding: 0 30px;
@@ -195,6 +213,7 @@ right: 30px;
 	outline: none;
 	color: #828282;
 	margin-left: 10px;
+	border: 1px solid #dcdcdc;
 }
 .save{
 	width: 135px;
@@ -202,6 +221,7 @@ right: 30px;
 	outline: none;
 	color: #828282;
 	margin-left: 20px;
+	border: 1px solid #dcdcdc;
 }
 .city{
 	width: 135px;
@@ -209,6 +229,7 @@ right: 30px;
 	outline: none;
 	color: #828282;
 	margin-left: 20px;
+	border: 1px solid #dcdcdc;
 }
 .txtadress{
 	width: 515px;
@@ -217,6 +238,7 @@ right: 30px;
 	margin-left: 80px;
 	margin-top: 15px;
 	padding: 0 10px;
+	border: 1px solid #dcdcdc;
 }
 .txtphone{
 	width: 180px;
@@ -224,6 +246,7 @@ right: 30px;
 	outline: none;
 	margin-left: 10px;
 	padding: 0 10px;
+	border: 1px solid #dcdcdc;
 }
 .txtnum{
 	width: 50px;
@@ -231,6 +254,7 @@ right: 30px;
 	outline: none;
 	margin-left: 10px;
 	margin-right: 5px;
+	border: 1px solid #dcdcdc;
 }
 .txttel{
 	width: 110px;
@@ -238,6 +262,7 @@ right: 30px;
 	outline: none;
 	margin-left: 5px;
 	margin-right: 15px;
+	border: 1px solid #dcdcdc;
 }
 .remark{
 	font-size: 12px;
@@ -248,17 +273,41 @@ right: 30px;
 	height: 25px;
 	margin-left: 10px;
 	outline: none;
+	border: 1px solid #dcdcdc;
 }
-p.linkconfirm{
-	width:60px;
+.linkconfirm{
+	width:65px;
 	height: 35px;
 	background-color: #17b4bb;
 	font-size: 12px;
 	color: #ffffff;
 	margin: auto;
+  padding-right: 30px;
 	text-align: center;
 	line-height: 35px;
 }
 .linkconfirm a{
 	color: #FFFFFF;
+}
+#HBox{
+display: none;
+}
+#HBox p{
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+#HBox p:nth-child(1){
+	margin-top: 30px;
+}
+#HTitle{
+	padding: 0px;
+	line-height: 45px;
+	padding-left:30px ;
+	height: 45px;
+	font-size: 16px;
+	background: #17b4bb;
+	color: #FFFFFF;
+}
+#HCloseBtn{
+	background: none;
 }

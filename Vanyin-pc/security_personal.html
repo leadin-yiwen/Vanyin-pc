@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
+
 		<head>
-		<meta charset="UTF-8">
-		<meta name="keywords" content="" />
-		<title>安全中心--个人资料一</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" href="css/security_left.css" />
-		<link rel="stylesheet" href="css/security_personal.css" />
+			<meta charset="UTF-8">
+			<meta name="keywords" content="" />
+			<title>安全中心--个人资料一</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<link rel="stylesheet" href="css/security_left.css" />
+			<link rel="stylesheet" href="css/security_personal.css" />
+		</head>
 	</head>
-	</head>
+
 	<body>
 		<!--头部导航 Begin-->
 		<div id="header">
@@ -32,8 +35,8 @@
 					<img src="img/exhibition/ewmimg1.jpg" />
 				</li>
 				<li class="headerlogin">
-					<a href="#">登录</a><span>|</span>
-					<a href="#">注册</a>
+					<a href="login.html">登录</a><span>|</span>
+					<a href="register.html">注册</a>
 				</li>
 
 			</ul>
@@ -201,16 +204,16 @@
 				<!--右侧导航 Begin-->
 				<ul class="headermenu">
 					<li class="hmli1 active">
-						<a href="#">首页</a>
+						<a href="index.html">首页</a>
 					</li>
 					<li class="hmli2">
-						<a href="#">
+						<a href="mydesign.html">
 							<span><img src="img/header/headerdesign.png"/></span>
 							<span>我要设计</span>
 						</a>
 					</li>
 					<li class="hmli2">
-						<a href="#">
+						<a href="Print_CallingCard.html">
 							<span><img src="img/header/headerprint.png"/></span>
 							<span>我要印刷</span>
 						</a>
@@ -222,7 +225,7 @@
 						</a>
 					</li>
 					<li class="hmli3">
-						<a href="#">印刷知识</a>
+						<a href="Article.html">印刷知识</a>
 					</li>
 					<li class="hmli3">
 						<a href="#">积分兑换</a>
@@ -246,42 +249,66 @@
 						<Span class="imglist"><img src="img/security/security_ico1.png"></Span>
 						<span class="namelist">订单中心</span>
 					</p>
-					<li>印刷产品订单</li>
-					<li>设计服务订单</li>
-					<li>积分兑换订单</li>
+					<li>
+						<a href="security_printing.html">印刷产品订单</a>
+					</li>
+					<li>
+						<a href="security_deserver.html">设计服务订单</a>
+					</li>
+					<li>
+						<a href="security_order.html">积分兑换订单</a>
+					</li>
 				</ul>
 				<ul>
 					<p class="titlelist">
 						<Span class="imglist"><img src="img/security/security_ico2.png"></Span>
 						<span class="namelist">个人 中心</span>
 					</p>
-					<li>个人资料</li>
-					<li>安全中心</li>
-					<li>收货地址</li>
-					<li>账号绑定</li>
+					<li>
+						<a href="security_personal.html">个人资料</a>
+					</li>
+					<li>
+						<a href="Security.html">安全中心</a>
+					</li>
+					<li>
+						<a href="security_address.html">收货地址</a>
+					</li>
+					<li>
+						<a href="security_bunding.html">账号绑定</a>
+					</li>
 				</ul>
 				<ul>
 					<p class="titlelist">
 						<Span class="imglist"><img src="img/security/security_ico3.png"></Span>
 						<span class="namelist">资产中心</span>
 					</p>
-					<li>我的积分</li>
-					<li>发票申请</li>
+					<li>
+						<a href="security_mypoints.html">我的积分</a>
+					</li>
+					<li>
+						<a href="security_invoice.html">发票申请</a>
+					</li>
 				</ul>
 				<ul>
 					<p class="titlelist">
 						<Span class="imglist"><img src="img/security/security_ico4.png"></Span>
 						<span class="namelist">文件中心</span>
 					</p>
-					<li>我的设计文件</li>
-					<li>我的印刷文件</li>
+					<li>
+						<a href="security_design.html">我的设计文件</a>
+					</li>
+					<li>
+						<a href="security_myprinnting.html">我的印刷文件</a>
+					</li>
 				</ul>
 				<ul>
 					<p class="titlelist">
 						<Span class="imglist"><img src="img/security/security_ico5.png"></Span>
 						<span class="namelist">消息中心</span>
 					</p>
-					<li>系统消息</li>
+					<li>
+						<a href="security_system.html">系统消息</a>
+					</li>
 				</ul>
 			</div>
 			<!--左边End-->
@@ -291,40 +318,227 @@
 				<div class="center">
 					<ul>
 						<li><img src="img/security/headimg.png"></li>
-						<li><p>账户名：HAI有谁！</p>
+						<li>
+							<p>账户名：HAI有谁！</p>
 							<p>注册日期：2016-10-13</p>
 						</li>
 					</ul>
 				</div>
 				<div class="linkman">
 					<p class="linkmantitle">联系人信息</p>
-					<p><span class="linktext">联系人：</span><input type="text" class="telman" id="telman" placeholder="请填写联系人"><span>联系人职位：<select class="position"><option>CEO</option></select></span><span>手机：<input type="text" class="txttel" id="txttel" placeholder="请填写手机号"></span></p>
-					<P><span class="linktext">性别：</span><input type="radio" class="sexmale" id="sexmale"> 男<input type="radio" class="sexwas" id="sexwas"> 女<span>固定电话：<input type="text" class="telephone" id="telephone" placeholder="请填写固定号码"></span><span>QQ：<input type="text" class="txtQQ" id="txtQQ"></span></P>
+					<div class="inputlist">
+						<div class="text-group">
+							<label class="text" for="telman">联系人：</label>
+							<input type="text" class="telman" id="telman" placeholder="请填写联系人">
+						</div>
+						<div class="text-group">
+							<label class="text">联系人职位：</label>
+							<select class="position">
+								<option>CEO</option>
+							</select>
+						</div>
+						<div class="text-group">
+							<label class="text" for="txttel">手机：</label>
+							<input type="text" class="txttel" id="txttel" placeholder="请填写手机号">
+						</div>
+					</div>
+					<div class="inputlist">
+						<div class="text-group">
+							<label class="text">性别：</label>
+							<label class="radio-inline">
+							<input type="radio" class="sexmale" id="sexmale" value="sex"> 男
+							</label>
+							<label class="radio-inline">
+							<input type="radio" class="sexwas" id="sexwas" value="was"> 女
+							</label>
+						</div>
+						<div class="text-group">
+							<label class="text2">固定电话：</label>
+							<input type="text" class="telephone" id="telephone" placeholder="请填写固定号码">
+						</div>
+						<div class="text-group">
+							<label class="text">QQ：</label>
+							<input type="text" class="txtQQ" id="txtQQ">
+						</div>
+					</div>
+
 					<P class="linkmantitle">企业信息</P>
-					<P><span class="linktext">企业名称：</span><input type="text" class="comname" id="comname" placeholder="请填写企业名称"></P>
-					<P><span class="linktext">详细地址：</span><select class="save"><option>上海市</option><</select><select class="city"><option>上海市</option></select><select class="area"><option>闵行区</option></select><input type="text" class="address" id="address" placeholder="请填写详细信息"></P>
-					<P><span class="linktext">企业类型：</span><input type="radio" class="ckradio" id="private"> 私企<input type="radio" class="ckradio" id="enterprise"> 国企<input type="radio" class="ckradio" id="sinoforeign"> 中外合资<input type="radio" class="ckradio" id="foreign"> 外资<input type="radio" class="ckradio" id="state"> 政府机关/事业单位<input type="radio" class="ckradio" id="other"> 其他</P>
-					<P><span class="linktext">企业人数：</span><input type="radio" class="num"> 1~49<input type="radio" class="num"> 50~99<input type="radio" class="num"> 100~499<input type="radio" class="num"> 500~999<input type="radio" class="num"> 1000以上</P>
-					<P><span class="linktext">公司行业：</span><select class="industry"><option>其他</option></select></P>
-					<P><span class="linktext">购买用途：</span><input type="checkbox" class="use" id="use"> 办公用品
-					<input type="checkbox" class="use" id="use"> 新员工入职套装
-					<input type="checkbox" class="use" id="use"> 公司培训
-					<input type="checkbox" class="use" id="use"> 企业展会宣传
-					<input type="checkbox" class="use" id="use"> 企业文化宣传
-					<input type="checkbox" class="use" id="use"> 定制纪念品
-					<input type="checkbox" class="use" id="use"> 门店日常
-					<input type="checkbox" class="use" id="use"> 新年套装
-					<input type="checkbox" class="use" id="use"> 店铺装饰
-					<input type="checkbox" class="use" id="use"> 团队建设/团队活动
-					<input type="checkbox" class="use" id="use"> 门店节日套装
+					<div class="inputlist">
+						<div class="text-groupe">
+							<label class="text1">企业名称：</label>
+							<input type="text" class="comname" id="comname" placeholder="请填写企业名称">
+						</div>
+					</div>
+					<div class="inputlist">
+						<div class="text-groupe">
+							<label class="text1">详细地址：</label>
+							<div class="boxlist">
+								<select class="save">
+									<option>上海市</option>
+								</select>
+								<select class="city">
+									<option>上海市</option>
+								</select>
+								<select class="area">
+									<option>闵行区</option>
+								</select>
+								<input type="text" class="address" id="address" placeholder="请填写详细信息">
+							</div>
+						</div>
+					</div>
+					<div class="inputlist">
+						<div class="text-groupe">
+							<label class="text1">企业类型：</label>
+							<label class="radio-inline">
+								<input type="radio" class="ckradio" id="private"> 私企
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="ckradio" id="enterprise"> 国企
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="ckradio" id="sinoforeign"> 中外合资
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="ckradio" id="foreign"> 外资
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="ckradio" id="state"> 政府机关/事业单位
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="ckradio" id="other"> 其他
+							</label>
+						</div>
+					</div>
+					<div class="inputlist">
+						<div class="text-groupe">
+							<label class="text1">企业人数：</label>
+							<label class="radio-inline">
+								<input type="radio" class="num"> 1~49
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="num"> 50~99
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="num"> 100~499
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="num"> 500~999
+							</label>
+							<label class="radio-inline">
+								<input type="radio" class="num"> 1000以上
+							</label>
+						</div>
+					</div>
+					<div class="inputlist">
+						<div class="text-groupe">
+							<label class="text1">公司行业：</label>
+							<select class="industry">
+								<option>其他</option>
+							</select>
+						</div>
+					</div>
+					<div class="inputlist">
+						<div class="text-groupe">
+							<label class="text1">购买用途：</label>
+							<div class="boxlist">
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 办公用品
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 新员工入职套装
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 公司培训
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 企业展会宣传
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 企业文化宣传
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 定制纪念品
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 门店日常
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 新年套装
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 店铺装饰
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 团队建设/团队活动
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" class="use" id="use"> 门店节日套装
+							</label>
+							</div>
+						</div>
+					</div>
+					<!--<p><span class="linktext">联系人：</span>
+						<input type="text" class="telman" id="telman" placeholder="请填写联系人">
+						<span>联系人职位：<select class="position"><option>CEO</option></select></span>
+						<span>手机：<input type="text" class="txttel" id="txttel" placeholder="请填写手机号"></span></p>
+					<P><span class="linktext">性别：</span>
+						<label><input type="radio" class="sexmale" id="sexmale"> 男</label>
+						<input type="radio" class="sexwas" id="sexwas"> 女
+						<span>固定电话：<input type="text" class="telephone" id="telephone" placeholder="请填写固定号码"></span>
+						<span>QQ：<input type="text" class="txtQQ" id="txtQQ"></span></P>
+					<P class="linkmantitle">企业信息</P>
+					<P><span class="linktext">企业名称：</span>
+						<input type="text" class="comname" id="comname" placeholder="请填写企业名称"></P>
+					<P><span class="linktext">详细地址：</span>
+						<select class="save">
+							<option>上海市</option>
+						</select>
+						<select class="city">
+							<option>上海市</option>
+						</select>
+						<select class="area">
+							<option>闵行区</option>
+						</select><input type="text" class="address" id="address" placeholder="请填写详细信息"></P>
+					<P><span class="linktext">企业类型：</span>
+						<input type="radio" class="ckradio" id="private"> 私企
+						<input type="radio" class="ckradio" id="enterprise"> 国企
+						<input type="radio" class="ckradio" id="sinoforeign"> 中外合资
+						<input type="radio" class="ckradio" id="foreign"> 外资
+						<input type="radio" class="ckradio" id="state"> 政府机关/事业单位
+						<input type="radio" class="ckradio" id="other"> 其他</P>
+					<P><span class="linktext">企业人数：</span>
+						<input type="radio" class="num"> 1~49
+						<input type="radio" class="num"> 50~99
+						<input type="radio" class="num"> 100~499
+						<input type="radio" class="num"> 500~999
+						<input type="radio" class="num"> 1000以上</P>
+					<P><span class="linktext">公司行业：</span>
+						<select class="industry">
+							<option>其他</option>
+						</select>
 					</P>
-					<p class="Preservation"><a>保存</a></p>
+					<P><span class="linktext">购买用途：</span>
+						<input type="checkbox" class="use" id="use"> 办公用品
+						<input type="checkbox" class="use" id="use"> 新员工入职套装
+						<input type="checkbox" class="use" id="use"> 公司培训
+						<input type="checkbox" class="use" id="use"> 企业展会宣传
+						<input type="checkbox" class="use" id="use"> 企业文化宣传
+						<input type="checkbox" class="use" id="use"> 定制纪念品
+						<input type="checkbox" class="use" id="use"> 门店日常
+						<input type="checkbox" class="use" id="use"> 新年套装
+						<input type="checkbox" class="use" id="use"> 店铺装饰
+						<input type="checkbox" class="use" id="use"> 团队建设/团队活动
+						<input type="checkbox" class="use" id="use"> 门店节日套装
+					</P>-->
+					<p class="Preservation">
+						<a href="#">保存</a>
+					</p>
 				</div>
 			</div>
 			<!--右边End-->
 		</div>
 		<!--正文End-->
-		 <!--底部 Begin-->
+		<!--底部 Begin-->
 		<div id="footer">
 
 			<!--招聘信息 Begin-->
@@ -450,8 +664,8 @@
 		<!--底部 End-->
 
 		<script src="js/jquery-1.11.1.min.js" charset="utf-8"></script>
-		<script src="js/swiper.min.js" charset="utf-8"></script>
-		<script src="js/jquery.index.js" charset="utf-8"></script>
 		<script src="js/jquery.header.js" charset="utf-8"></script>
+		<script src="js/jquery.menu.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>

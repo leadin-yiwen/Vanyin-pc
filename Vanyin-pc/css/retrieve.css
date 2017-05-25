@@ -223,7 +223,7 @@
 	line-height: 40px;
 	background: #17B4BB;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .txtinput p:nth-child(2) a{
 	color: #FFFFFF;
@@ -309,6 +309,7 @@
 	line-height: 35px;
 	text-align: center;
 	margin: auto;
+	margin-top: 40px;
 }
 .choicebox p:nth-child(3) a{
 	color: #FFFFFF;
@@ -318,7 +319,7 @@
 	width: 1100;
 	height: 625px;
 	border: 1px solid #e3e3e3;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .verification p.retrievetitle {
 	width: 1040px;

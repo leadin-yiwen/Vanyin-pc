@@ -163,7 +163,7 @@ margin-top: 10px;
 	font-size: 16px;
 	color: #333333;
 }
-.contentbox  li:nth-child(3) p:nth-child(2){
+.contentbox  li:nth-child(3) a p:nth-child(2) {
 	font-size: 14px;
 	color: #828282;
 }

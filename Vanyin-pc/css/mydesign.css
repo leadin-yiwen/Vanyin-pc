@@ -96,6 +96,9 @@ margin-left: 70px;
 .contentone .oneright ul:nth-child(even){
 	background: #f1efef;
 }
+.icolink{
+	cursor: pointer;
+}
 /*two*/
 
 .contenttwo .twotitle{

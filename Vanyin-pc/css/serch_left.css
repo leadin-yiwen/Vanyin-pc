@@ -25,12 +25,12 @@
 .serchleft ul li.textbox{
 	padding: 0 10px;
 	width: 196px;
-	height: 50px;
+	height: 52px;
 	margin-top: -3px;
 	border: 1px solid #E5E5E5;
 }
 .serchleft ul li.textbox p.money{
-	margin-top: 5px;
+	margin-top: 3px;
 	color: #e93052;
 	font-size: 18px;
 }

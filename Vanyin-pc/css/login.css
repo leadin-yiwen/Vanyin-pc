@@ -4,7 +4,7 @@
 
 .loginbox {
 	width: 100%;
-	height: 510px;
+	height: 610px;
 	background-color: #17b4bb;
 }
 
@@ -22,7 +22,7 @@
 	background-color: #FFFFFF;
 	position: absolute;
 	right: 20px;
-	top: 35px;
+	top: 80px;
 	padding: 0 25px;
 }
 .logincontent p{
@@ -67,20 +67,30 @@
 .logincontent ul li:nth-child(3){
 	margin-top: 30px;
 }
+label.checkbox-inline{
+	line-height: 30px;
+	position: relative;
+    display: inline-block;
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999999;
+}
 .ckbox{
-	width: 15px;
-	height: 15px;
-	margin-right: 10px;
+	position: absolute;
+	margin-left: -18px;
+	top:7px
 }
 .logincontent ul li:nth-child(3) span{
 	font-size: 14px;
 	color: #828282;
-}
-.logincontent ul li:nth-child(3) span:nth-child(2){
-	margin-right: 10px;
-}
-.logincontent ul li:nth-child(3) span:nth-child(5){
 	float: right;
+	color: #17b4bb;
+}
+.logincontent ul li:nth-child(3) span a{
 	color: #17b4bb;
 }
 .logincontent ul li:nth-child(4){

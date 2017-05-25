@@ -197,7 +197,13 @@
 	margin-right: 20px;
 	margin-left: 300px;
 }
+.invoiceboxtwo p:nth-child(5) span:nth-child(1) a{
+	color: #828282;
+}
 .invoiceboxtwo p:nth-child(5) span:nth-child(2){
 	background: #17B4BB;
+	color: #FFFFFF;
+}
+.invoiceboxtwo p:nth-child(5) span:nth-child(2) a{
 	color: #FFFFFF;
 }
